@@ -4,7 +4,7 @@ This repository contains a shell script to build FFmpeg with various codecs and 
 
 ### About
 
-After following some great guides online to compile ffmpeg from source, I wanted to use hardware support when required, the latest version of ffmpeg and a preference towards H264, H265 and VC9 codecs. A few attempts online resulted in errors or incomplete builds. This build creates an 'all-in-one' set of binaries, which includes ffmpeg, ffplay and ffprobe and installs them. 
+After following some great guides online to compile ffmpeg from source, I wanted to use hardware support when required, the latest version of ffmpeg and a preference towards H264, H265 and VC9 codecs. A few attempts online resulted in errors or incomplete builds. This build creates an 'all-in-one' set of binaries, which includes ffmpeg, ffplay and ffprobe and installs them. I also bawked my first attept using libmysofa and had to restore my machine due to conflicting libs so this doesn't use it.
 
 ### Requisites
 ```
