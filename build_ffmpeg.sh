@@ -23,9 +23,9 @@ sudo apt-get -y install autoconf automake build-essential libass-dev libfreetype
 
 # Build and install nasm
 cd "${SRC_DIR}"
-wget https://www.nasm.us/pub/nasm/releasebuilds/2.15.05/nasm-2.15.05.tar.gz
-tar xzf nasm-2.15.05.tar.gz
-cd nasm-2.15.05
+wget https://www.nasm.us/pub/nasm/releasebuilds/2.16.01/nasm-2.16.01.tar.gz
+tar xzf nasm-2.16.01.tar.gz
+cd nasm-2.16.01
 ./autogen.sh
 ./configure --prefix="${WORK_DIR}"
 make -j$(nproc)
